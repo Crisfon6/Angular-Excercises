@@ -1,0 +1,21 @@
+{
+  "name": "apirest",
+  "version": "1.0.0",
+  "description": "api rest del master en js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cristhian Fonseca",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

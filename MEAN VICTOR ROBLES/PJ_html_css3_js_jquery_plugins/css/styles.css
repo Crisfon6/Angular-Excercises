@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.clearfix{
+    float: none;
+    clear: both;
+
+}
+/* body{ */
+    /* background: url('../img/leaf.jpg'); */
+    /* esto es  para que la img se exitenda por toda la pge */
+    /* background-attachment: fixed;  */
+/* } */
+
+#global{
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    background: white;
+    padding: 30px;
+    box-shadow: 0px 0px 2px gray;
+}
+#logo{
+    /* display: block; */
+    font-family: Verdana, Arial;
+    font-size: 30px;
+    letter-spacing: 4px;
+    /* background: #235e23; */
+    line-height: 75px;
+    color: white;
+    text-align: center;
+    width: 385px;
+    height: 80px;
+    float: left;
+    margin-bottom: 20px;
+
+}
+#menu{
+    font-family: Helvetica, Arial;
+    background: #333333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#menu ul{
+    line-height: 46px;
+    list-style: none;
+}
+#menu ul li{
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+}
+/* #menu ul li:hover{
+    background: #235e23;
+} */
+
+
+#menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#posts{
+    width: 65%;
+    float: left;
+    font-family: Helvetica,Arial;
+}
+.post{
+    padding: 7px;
+    
+}
+
+
+h2{
+    font-family: Helvetica,Arial;
+    font-size: 30px;
+    color: #333333;
+}
+.post .date{
+    display: block;
+    color: gray;
+    margin-top: 10px;
+}
+.post p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    text-align: justify;
+}
+.button-more{
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    /* background: #235e23; */
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 70px;
+   margin-bottom: 20px;
+}
+#sidebar{
+    font-family: Helvetica, Arial;
+    width: 31%;
+    float: right;
+}
+#sidebar h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333333;
+    background: url('../img/lines.png') repeat-x;
+}
+#sidebar h4 span{
+    background: white;
+    padding: 10px;
+}
+#sidebar img{
+    
+    width: 100%;
+}
+#sidebar p {
+    font-size: 15px;
+    text-align: justify;
+}
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="number"],
+select{
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #cccc;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 5px
+}
+form input[type="submit"]{
+    background: #eeeeee;
+    padding: 10px;
+    border: 1px solid #cccc;
+    color: #333333;
+    cursor: pointer ;
+}
+footer{
+   
+    font-family: Helvetica, Arial;
+    color: white;
+    height: 47px;
+    background: rgba(51, 51, 51, 0.70);
+    margin: 0px auto;
+    width: 65%;
+    padding-left:20px ;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+}
+.bx-wrapper, .bx-viewport{
+    height: 250px !important;
+    
+}
+.bxslider img{
+    width: 100%; 
+    height: 100%;
+}
+#selector-theme{
+    position: fixed;
+    top: 40%;
+    background: rgba(51, 51, 51, 0.5);
+    width: 50px;
+    height: 118px ;
+    cursor: pointer;
+}
+#to-green,
+#to-blue,
+#to-red{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#to-green{
+    background: #235e23;
+}
+#to-red{
+    background: #ca3413;
+}
+#to-blue{
+    background: #1f87c4;
+}
+.subir{
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    padding: 15px;
+  
+     
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 70px;
+    float: right;
+   margin-bottom: 20px;
+    
+}
+#box {
+    width: 65%;
+    float: left;
+    margin-top: 40px;
+}
+#acordeon{
+    margin-top: 20px;
+
+}
+#acordeon p{
+    text-align: justify;
+    
+}
+#reloj{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Helvetica,Arial;
+    color: #333333;
+    border: 5px dashed #333333;
+    width: 30%;
+    padding: 30px;
+    margin: 0px auto;
+}
+#form_contact{
+    width: 50%;
+    margin-top: 15px;
+    font-family: Helvetica,Arial;
+}
+#form_contact label{
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+}
+.form-error{
+    /* float: right; */
+    font-size: 13px;
+    background: #ca3413;
+    color: #eeeeee;
+    padding: 10px;
+    width: 100%;
+}

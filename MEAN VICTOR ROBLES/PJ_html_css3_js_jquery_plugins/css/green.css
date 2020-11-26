@@ -1,0 +1,21 @@
+body{
+    background: url('../img/leaf.jpg');
+    /* esto es  para que la img se exitenda por toda la pge */
+    background-attachment: fixed; 
+}
+
+#logo{
+     
+    background: #235e23;
+   }
+   #menu ul li:hover{
+    background: #235e23;
+}
+.button-more{
+  
+    background: #235e23;
+    
+}
+.subir{
+    background: #235e23; 
+}

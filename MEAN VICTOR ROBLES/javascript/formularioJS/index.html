@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio DOM</title>
+    <script src="from.js"></script>
+    <style>
+        .box {
+            width: 250px;
+            height: 300px;
+            float: left;
+            margin: 20px;
+        }
+
+        .dashed {
+            
+            border: 3px dashed black;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <div class="box">
+        <form action="#" method="POST" id="formulario" onsubmit="return false">
+
+            <label for="nombre">nombre</label><br>
+            <input type="text" name="nombre" id="nombre"><br>
+            <label for="apellido">apellido</label><br>
+            <input type="text" name="apellido" id="apellido"><br>
+            <label for="edad">edad</label><br>
+            <input type="number" name="edad" id="edad"><br>
+            <input type="submit" value="submit" id="submit"><br>
+            
+
+        </form>
+    </div>
+    
+        <div class="box dashed">
+
+<h3>Info User</h3>
+<hr>
+<p class="p_nombre">Su nombre es: <span></span></p><br>
+<p class="p_apellido">Su apellido es: <span></span></p><br>
+<p class="p_edad">Su edad es: <span></span></p><br>
+        </div>
+    
+        <!-- <p class="p_nombre">Su nombre es: <span></span></p>
+        <p class="p_apellido">Su apellido es: <span></span></p>
+        <p class="p_edad">Su edad es: <span></span></p> -->
+    
+    
+
+</body>
+
+
+</html>

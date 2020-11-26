@@ -1,0 +1,22 @@
+body{
+    background: url('../img/heaven.jpg');
+    /* esto es  para que la img se exitenda por toda la pge */
+    background-attachment: fixed; 
+}
+
+
+#logo{
+     
+    background: #1f87c4;
+   }
+   #menu ul li:hover{
+    background: #1f87c4;
+}
+.button-more{
+  
+    background: #1f87c4;
+    
+}
+.subir{
+    background: #1f87c4; 
+}

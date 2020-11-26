@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "clean": "rm -rf build",
+    "start": "npm run build && node build/app.js",
+        "dev": "concurrently \"tsc -w\" \"nodemon build/app.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3",
+    "typescript": "^3.8.3"
+  }
+}

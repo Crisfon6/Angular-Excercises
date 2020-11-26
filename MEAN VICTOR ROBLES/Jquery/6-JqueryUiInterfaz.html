@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.css">
+    <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="js/6-JqueryUiInterfaz.js"></script>
+    <style>
+    .elemento{
+        width: 300px;
+        height: 200px;
+        border: 4px solid blue;
+        background: lightblue;
+        margin: 20px;
+        float: left;
+    }
+    .listaSeleccionable li{
+        width: 80%;
+        padding: 20px;
+        border: 1px solid #cccccc;
+        list-style: none;
+        cursor: pointer;
+    }
+    ul .ui-selecting{
+        background: green;
+    }
+    ul .ui-selected {
+        background: yellow;
+    }
+    #area{
+        width: 300px;
+        height: 300px;
+        border: 4px solid green;
+    }
+    #elemento-movido{
+        width: 100px;
+        height: 100px;
+        border: 4px solid red;
+    }
+    .caja-efectos{
+        background: pink;
+        float: none;
+        display: none;
+    }
+    </style>
+</head>
+<body>
+    <h1>JQuery UI</h1>
+    <h2>ToolTip</h2>
+    <a href="#" title="Accder a ala seccion de mis datos" id="mis-datos">Mis datos</a>
+    <a href="#" title="Inicio de sesion" id="mis-datos">Inicia sesion</a>
+    <hr>
+    <h2>Cuadro dialogo</h2>
+    <button id="lanzar-popup">Lanzame</button>
+    <div  id="popup" title="¿Estas SEguro?" style='display:none'>
+        	<p>EStoy aprendiendo mucho</p>
+    </div>
+
+    <hr>
+    <h3>Calendar</h3>
+    <input type="text" id="calendar">
+    <hr>
+    <h3>Pestañas</h3>
+    <div id="pestanas">
+        <ul>
+            <li><a href="#tabs-1">Pestaña 1</a></li>
+            <li><a href="#tabs-2">Pestaña 2</a></li>
+            <li><a href="#tabs-3">Pestaña 3</a></li>
+        </ul>
+        <div id="tabs-1">
+            Hola soy la primera pestaña
+        </div>
+        <div id="tabs-2">
+            Hola soy la segunda pestaña
+        </div>
+        <div id="tabs-3">
+            Hola soy la tercera pestaña
+        </div>
+
+    </div>
+    <hr>
+    <button id="mostrar">Mostrar</button>
+    <div class="caja-efectos elemento"></div>
+    <div id="elemento-movido"></div>
+    <div id="area" ></div>
+    <ul class="listaSeleccionable">
+        <li>GTA V</li>
+        <li>HAlo </li>
+        <li>God of war</li>
+        <li>need for speed</li>
+        <li>League of Legends</li>
+    </ul>
+ 
+    <div class="elemento">
+        Hola soy un elemento de la web 1
+    </div>
+    <div class="elemento">
+        Hola soy un elemento de la web 2
+    </div>
+    <div class="elemento">
+        Hola soy un elemento de la web 3
+    </div>
+
+   
+</body>
+</html>

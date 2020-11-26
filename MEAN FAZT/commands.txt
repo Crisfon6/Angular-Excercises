@@ -1,0 +1,5 @@
+ng new nombreproject -> crear project angular
+ng generate component nombrecomponet -> crea un componente
+ng g c nombrecomponet -> crea un component
+ng g class nombreclass -> crea clase 
+ng g service nombreservice -> create a service
